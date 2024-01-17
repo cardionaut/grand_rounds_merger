@@ -8,5 +8,6 @@ hydra:
   run:  
     dir: .
 
-input_dir: '/home/sebalzer/Documents/Projects/Grand_Rounds/Zertifikate_Jan_2024'
+input_dir: '/home/sebalzer/Documents/Projects/Grand_Rounds/Zertifikate_2023'
 rename_dict: {'Name (Originalname)': 'name', 'Benutzer-E-Mail:': 'mail', 'Dauer (Minuten)': 'duration'}
+min_duration: 20 # minimum duration in minutes a user has to attend each meeting to get credits
